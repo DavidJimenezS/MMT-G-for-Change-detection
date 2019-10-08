@@ -15,11 +15,7 @@ addpath(genpath([pwd , '\Data\']));
 
 
 load('mulargia_95_96.mat')
-%load('mulargia_2001_2003.mat')
 %load('fire_2013.mat')
-%load('tesis_village.mat')
-%load('data_contest.mat') %The data is already normalized and uses NIR ch.
-%load('xunD1.mat')
 
 
 % ------------ for lake & fire data----------
@@ -158,32 +154,6 @@ for i = 1 : modalities
     set(gca,'FontSize',12)
     
     drawnow;
-    
-    %w_AA = wl{i}(1:n,1:end);
-    %w_BA = wl{i}(n+1:end,1:end);
-    %     figure
-    %         G = graph(w_AA,'Upper');
-    %         figure, plot(G)
-    %     auxw(:,:,i) = wl{i};
-    
-    
-    %     [u_s{i},d_s{i}] = svd(w_AA);
-    %
-    %     f{i} = exp(-2*pi*diag(d_s{i}));%cos((1:n)'*2*pi/n);%
-    %
-    %    %invgft = sum(repmat(GFT{i}',n,1).*u_s{i},2);
-    %
-    %     GFT{i} = sum(repmat(ctranspose(f{i}),n,1).*u_s{i},2);
-    %
-    %     %figure, gsp_plot_signal_spectral2(diag(d_s{i}),GFT{i})
-    %     figure, stem(diag(d_s{i}),GFT{i})
-    %
-    %     title(strcat('GFT_',num2str(i)))
-    %     set(gca,'FontSize',12)
-    %
-    %     pause(2)
-    
-    
 end
 clear Xl Xl_AA
 %% Multimodal Weights
