@@ -1,7 +1,7 @@
 # MMT-G-for-Change-detection
 MULTI-MODAL/TEMPORAL GRAPH FUSION FOR CHANGE DETECTION IN MULTI-SPECTRAL IMAGES
 
-## MMG-T
+## MMT-G
   Here you will find all the code used to generate a change map in two cases: i) Flooding, ii) Fire.
   
   1. CD_detection.m is the main code that generates the changes map.
