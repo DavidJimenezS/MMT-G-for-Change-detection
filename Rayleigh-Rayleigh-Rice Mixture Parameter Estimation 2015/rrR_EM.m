@@ -29,10 +29,6 @@ I = lake';
 Aspot = lakef';
 clear lake lakef;
 
-%________________ contest data ___________
-%load('data_contest.mat')
-%load('mulargia_2001_2003.mat')
-
 %_________________Magnitude of difference _______________
 
 
