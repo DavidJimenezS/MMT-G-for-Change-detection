@@ -23,18 +23,10 @@ clc
 %________________ lake data ___________
 load('mulgaria_95_96.mat')
 %load('fire_2013.mat')
-% load('tesis_village.mat')
-% 
-% Aspot = (cropsaf);
-% 
-% I = (cropsbf);
 
 I = lake';
 Aspot = lakef';
 clear lake lakef;
-
-%________________ contest data ___________
-%load('data_contest.mat')
 
 
 %_________________Magnitude of difference _______________
