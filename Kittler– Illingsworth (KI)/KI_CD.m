@@ -1,3 +1,17 @@
+%%
+% This code is based on the Kittler– Illingsworth method
+% please refer to the next bibtex:
+%@article{kittler1986minimum,
+%  title={Minimum error thresholding},
+%  author={Kittler, Josef and Illingworth, John},
+%  journal={Pattern recognition},
+%  volume={19},
+%  number={1},
+%  pages={41--47},
+%  year={1986},
+%  publisher={Elsevier}
+%}
+%%
 clear all
 close all
 clc
