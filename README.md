@@ -18,17 +18,8 @@ MULTI-MODAL/TEMPORAL GRAPH FUSION FOR CHANGE DETECTION IN MULTI-SPECTRAL IMAGES
   1. rrR_EM.m Main.
   
 
-## Kittler– Illingsworth (Minimum error thresholding) (1986) 
-  @article{kittler1986minimum,
-  title={Minimum error thresholding},
-  author={Kittler, Josef and Illingworth, John},
-  journal={Pattern recognition},
-  volume={19},
-  number={1},
-  pages={41--47},
-  year={1986},
-  publisher={Elsevier}
-  }
+## Kittler– Illingsworth (Minimum error thresholding) (1986) #https://doi.org/10.1016/0031-3203(86)90030-0
+
   This folder contains the KI algorithm, if you used please reference the author (bibtex is on the main code).
   
   1. KI_CD.m Main.
